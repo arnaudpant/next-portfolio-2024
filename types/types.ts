@@ -3,7 +3,13 @@ export type NavLinks = {
     path: string
 }
 
-export type StatsList = {
+export type StatsType = {
     num: number;
     text: string
+}
+
+export type ServicesType = {
+    num: string;
+    title: string;
+    description: string;
 }

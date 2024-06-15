@@ -1,9 +1,9 @@
 "use client";
 
-import { StatsList } from "@/types/types";
+import { StatsType } from "@/types/types";
 import CountUp from "react-countup";
 
-const stats: StatsList[] = [
+const stats: StatsType[] = [
     {
         num: 29,
         text: "Projets complétés",
@@ -39,11 +39,7 @@ const Stats = () => {
                                     delay={2}
                                     className="text-3xl xl:text-5xl font-extrabold"
                                 />
-                                <p
-                                    className='max-w-[90px]'
-                                >
-                                    {item.text}
-                                </p>
+                                <p className="max-w-[90px]">{item.text}</p>
                             </div>
                         </>
                     ))}
