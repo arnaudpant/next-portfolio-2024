@@ -1,31 +1,9 @@
 "use client";
 
-import { ServicesType } from "@/types/types";
+import { services } from "@/lib/data";
 import { motion } from 'framer-motion'
 import { ArrowDownRight } from "lucide-react";
 
-const services: ServicesType[] = [
-    {
-        num: "01",
-        title: "Développement web",
-        description: "",
-    },
-    {
-        num: "02",
-        title: "Création de SaaS",
-        description: "Développement de SaaS avec Next.js",
-    },
-    {
-        num: "03",
-        title: "Création de site vitrine",
-        description: "",
-    },
-    {
-        num: "04",
-        title: "Création de site e-commerce",
-        description: "",
-    },
-];
 
 const Services = () => {
     return (

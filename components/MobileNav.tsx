@@ -1,10 +1,11 @@
 "use client";
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { linksNavigation } from "@/lib/data";
 import { AlignRight } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { linksNavigation } from "./Nav";
+
 
 const MobileNav = () => {
     const pathname = usePathname();

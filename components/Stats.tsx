@@ -1,26 +1,9 @@
 "use client";
 
+import { stats } from "@/lib/data";
 import { StatsType } from "@/types/types";
 import CountUp from "react-countup";
 
-const stats: StatsType[] = [
-    {
-        num: 29,
-        text: "Projets complétés",
-    },
-    {
-        num: 8,
-        text: "Technologies maitrisées",
-    },
-    {
-        num: 824,
-        text: "Commits",
-    },
-    {
-        num: 36,
-        text: "Pull Request",
-    },
-];
 
 const Stats = () => {
     return (

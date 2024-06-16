@@ -1,30 +1,10 @@
 "use client";
 
+import { linksNavigation } from "@/lib/data";
+import { NavLinks } from "@/types/types";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export const linksNavigation: NavLinks[] = [
-    {
-        name: "accueil",
-        path: "/",
-    },
-    {
-        name: "services",
-        path: "/services",
-    },
-    {
-        name: "a propos",
-        path: "/about",
-    },
-    {
-        name: "portfolio",
-        path: "/portfolio",
-    },
-    {
-        name: "contact",
-        path: "/contact",
-    },
-];
 
 const Nav = () => {
     const pathname = usePathname();
