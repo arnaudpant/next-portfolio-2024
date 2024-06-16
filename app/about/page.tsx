@@ -2,7 +2,8 @@
 
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Tabs, TabsTrigger, TabsList, TabsContent } from "@/components/ui/tabs";
-import { about, education, experience } from "@/lib/data";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import { about, education, experience, skillsList } from "@/lib/data";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -91,8 +92,39 @@ const About = () => {
                             </div>
                         </TabsContent>
                         {/* COMPETENCES */}
-                        <TabsContent value="skills" className="w-full">
-                            skills
+                        <TabsContent value="skills" className="w-full h-full">
+                            <div className="flex flex-col gap-[30px]">
+                                <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                                    <h3 className="text-2xl font-bold">
+                                        {skillsList.title}
+                                    </h3>
+                                    <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                                        {skillsList.description}
+                                    </p>
+                                </div>
+                                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10 mt-4">
+                                    {skillsList.skillsList.map(
+                                        (skill, index) => (
+                                            <li key={index}>
+                                                <TooltipProvider
+                                                    delayDuration={100}
+                                                >
+                                                    <Tooltip>
+                                                        <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center">
+                                                            <div className="text-6xl">
+                                                                {<skill.icon />}
+                                                            </div>
+                                                        </TooltipTrigger>
+                                                        <TooltipContent>
+                                                            <p>{skill.name}</p>
+                                                        </TooltipContent>
+                                                    </Tooltip>
+                                                </TooltipProvider>
+                                            </li>
+                                        )
+                                    )}
+                                </ul>
+                            </div>
                         </TabsContent>
                         {/* A PROPOS */}
                         <TabsContent value="about" className="w-full">

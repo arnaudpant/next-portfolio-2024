@@ -1,3 +1,5 @@
+import { IconType } from "react-icons/lib";
+
 export type NavLinks = {
     name: string;
     path: string
@@ -20,7 +22,7 @@ export type ResumeType = {
     info: InfoResumeType[]
 }
 
-export type InfoResumeType = {
+type InfoResumeType = {
     fieldName: string;
     fieldValue: string;
 }
@@ -32,7 +34,7 @@ export type ExperiencesType = {
     items: ExperiencesItemsType[]
 }
 
-export type ExperiencesItemsType = {
+type ExperiencesItemsType = {
     company: string,
     poste: string,
     duration: string,
@@ -42,3 +44,16 @@ export type NavLinksType = {
     name: string,
     path: string
 }
+
+export type SkillsType = {
+    title: string;
+    description: string;
+    skillsList: TechnosList[];
+};
+
+
+type TechnosList =
+    {
+        icon: IconType
+        name: string
+    }

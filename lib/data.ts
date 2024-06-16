@@ -1,4 +1,6 @@
-import { ExperiencesType,  NavLinksType,  ResumeType, ServicesType, StatsType } from "@/types/types";
+import { ExperiencesType,  NavLinksType,  ResumeType, ServicesType, SkillsType, StatsType } from "@/types/types";
+import { FaHtml5, FaCss3Alt, FaJs, FaGithub, FaReact, FaSass, FaWordpress, FaFigma } from "react-icons/fa";
+import { SiNextdotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 export const linksNavigation: NavLinksType[] = [
     {
@@ -127,13 +129,54 @@ export const education: ExperiencesType = {
     ],
 };
 
-export const skills = {
+export const skillsList: SkillsType = {
     title: "Mes skills",
     description: "Bla bla",
     skillsList: [
         {
-            icon: '',
-            name: 'html 5'
-        }
-    ]
-}
+            icon: SiNextdotjs,
+            name: "Next",
+        },
+        {
+            icon: FaReact,
+            name: "React",
+        },
+        {
+            icon: SiTypescript,
+            name: "TypeScript",
+        },
+        {
+            icon: SiTailwindcss,
+            name: "Tailwind",
+        },
+        {
+            icon: FaJs,
+            name: "Javascript",
+        },
+
+        {
+            icon: FaHtml5,
+            name: "html 5",
+        },
+        {
+            icon: FaCss3Alt,
+            name: "CSS",
+        },
+        {
+            icon: FaGithub,
+            name: "Git",
+        },
+        {
+            icon: FaSass,
+            name: "Sass",
+        },
+        {
+            icon: FaWordpress,
+            name: "WordPress",
+        },
+        {
+            icon: FaFigma,
+            name: "Figma",
+        },
+    ],
+};
