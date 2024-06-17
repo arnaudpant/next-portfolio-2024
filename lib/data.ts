@@ -1,6 +1,6 @@
-import { ExperiencesType,  NavLinksType,  ResumeType, ServicesType, SkillsType, StatsType } from "@/types/types";
+import { ExperiencesType, NavLinksType, ProjectType, ResumeType, ServicesType, SkillsType, StatsType } from "@/types/types";
 import { FaHtml5, FaCss3Alt, FaJs, FaGithub, FaReact, FaSass, FaWordpress, FaFigma } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiNextdotjs, SiTailwindcss, SiTypescript, SiFirebase } from "react-icons/si";
 
 export const linksNavigation: NavLinksType[] = [
     {
@@ -150,6 +150,10 @@ export const skillsList: SkillsType = {
             name: "Tailwind",
         },
         {
+            icon: SiFirebase,
+            name: "Firebase",
+        },
+        {
             icon: FaJs,
             name: "Javascript",
         },
@@ -180,3 +184,38 @@ export const skillsList: SkillsType = {
         },
     ],
 };
+
+/** PORTFOLIO */
+
+export const projects: ProjectType[] = [
+    {
+        num: '01',
+        category: 'Frontend',
+        title: "",
+        description: '',
+        stacks: ['Next', 'React', 'TypeScript'],
+        image: '/portfolio/site1.png',
+        live: '',
+        github: '',
+    },
+    {
+        num: '02',
+        category: 'Frontend',
+        title: "",
+        description: '',
+        stacks: ['React', 'TypeScript'],
+        image: '/portfolio/site2.png',
+        live: '',
+        github: '',
+    },
+    {
+        num: '03',
+        category: 'Frontend & Backend',
+        title: "",
+        description: '',
+        stacks: ['React', 'TypeScript', 'Firebase'],
+        image: '/portfolio/site3.png',
+        live: '',
+        github: '',
+    },
+]

@@ -57,3 +57,16 @@ type TechnosList =
         icon: IconType
         name: string
     }
+
+export type ProjectType = {
+    num: string;
+    category: string;
+    title: string;
+    description: string;
+    stacks: StackList[];
+    image: string;
+    live?: string;
+    github?: string;
+}
+
+type StackList = 'Next' | 'React' | 'TypeScript' | 'Firebase' | 'Tailwind' | 'ShadCN'
