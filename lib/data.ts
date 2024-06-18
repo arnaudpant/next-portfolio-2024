@@ -50,22 +50,22 @@ export const services: ServicesType[] = [
     {
         num: "01",
         title: "Développement web front-end",
-        description: "Développement d'application web avec Next.js, React et TypeScript",
+        description: "Je suis spécialisé en Next.js et React, des frameworks modernes et puissants qui permettent de créer des applications web performantes et réactives, avec des interfaces utilisateur intuitives et esthétiques. Mon objectif est de transformer vos idées en réalités numériques robustes et évolutives.",
     },
     {
         num: "02",
         title: "Création de SaaS",
-        description: "Création de SaaS avec Next.js",
+        description: "Avec Next.js, je développe des applications SaaS (Software as a Service) efficaces et évolutives. Je suis capable de transformer vos besoins métier en solutions technologiques concrètes, en offrant une expérience utilisateur de haute qualité.",
     },
     {
         num: "03",
         title: "Création de site vitrine",
-        description: "",
+        description: "Je conçois et développe des sites vitrines et des landing pages percutantes qui mettent en valeur vos produits ou services. Je crée des pages rapides à charger et optimisées pour le référencement (SEO). Chaque projet est réalisé sur mesure, avec une attention particulière portée au design et à l'ergonomie, afin de maximiser l'impact visuel et l'engagement des visiteurs. Mon objectif est de vous aider à captiver votre audience et à convertir les visiteurs en clients.",
     },
     {
         num: "04",
         title: "Création de site e-commerce",
-        description: "",
+        description: "Je propose la création de sites e-commerce avec Next.js ou WordPress. Grâce à mon expérience, je développe des plateformes de vente en ligne qui offrent une navigation fluide, une gestion simplifiée des produits et un processus de commande sécurisé. Que vous choisissiez Next.js pour une solution sur mesure ou WordPress pour sa flexibilité et ses nombreuses extensions, je m'engage à fournir une boutique en ligne qui répond à vos besoins et à ceux de vos clients.",
     },
 ];
 
@@ -73,20 +73,6 @@ export const services: ServicesType[] = [
 export const about: ResumeType = {
     title: "A propos",
     description: "bla bla",
-    info: [
-        {
-            fieldName: "Nom",
-            fieldValue: "Arnaud Pantenier",
-        },
-        {
-            fieldName: "Téléphone",
-            fieldValue: "(+33)6 71 39 09 12",
-        },
-        {
-            fieldName: "Email",
-            fieldValue: "arnaud.pantenier@gmail.com",
-        },
-    ],
 };
 
 export const experience: ExperiencesType = {
@@ -98,16 +84,19 @@ export const experience: ExperiencesType = {
             company: "MikeCodeur",
             poste: "Front-end et chef de projet",
             duration: "Avril 2024 - Aujourd'hui",
+            description: "j'ai mené le développement d'un site de mise en relation entre des familles d'accueil et des apprenants pour des séjours linguistiques en France. Ce projet a été réalisé au sein d'une équipe suivant la méthodologie Agile Scrum."
         },
         {
             company: "HuilesVak",
-            poste: "Création site E-commerce",
+            poste: "Création site E-commerce avec WordPress, WooCommerce",
             duration: "Mars 2024 - Aujourd'hui",
+            description: ''
         },
         {
-            company: "MikeCodeur",
-            poste: "Back-end et Front-end",
-            duration: "Décembre 2023 - Mars 2024",
+            company: "N'JoyLife",
+            poste: "Design et Front-end",
+            duration: "Décembre 2023 - Aujourd'hui",
+            description: ''
         },
     ],
 };
@@ -121,11 +110,13 @@ export const education: ExperiencesType = {
             company: "React Mastery",
             poste: "Développeur React",
             duration: "Mai 2023 - Février 2024",
+            description: ''
         },
         {
             company: "Cours en ligne",
             poste: "HTML CSS Javascript",
             duration: "Septembre 2020 - Mai 2023",
+            description: ''
         },
     ],
 };

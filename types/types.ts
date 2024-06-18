@@ -19,7 +19,6 @@ export type ServicesType = {
 export type ResumeType = {
     title: string;
     description: string;
-    info: InfoResumeType[]
 }
 
 type InfoResumeType = {
@@ -38,6 +37,7 @@ type ExperiencesItemsType = {
     company: string,
     poste: string,
     duration: string,
+    description: string,
 }
 
 export type NavLinksType = {
