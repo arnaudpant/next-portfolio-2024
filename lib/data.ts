@@ -1,6 +1,7 @@
-import { ExperiencesType, NavLinksType, ProjectType, ResumeType, ServicesType, SkillsType, StatsType } from "@/types/types";
-import { FaHtml5, FaCss3Alt, FaJs, FaGithub, FaReact, FaSass, FaWordpress, FaFigma } from "react-icons/fa";
+import { ExperiencesType, InfosType, NavLinksType, ProjectType, ResumeType, ServicesType, SkillsType, StatsType } from "@/types/types";
+import { FaHtml5, FaCss3Alt, FaJs, FaGithub, FaReact, FaSass, FaWordpress, FaFigma, FaPhoneAlt } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiTypescript, SiFirebase } from "react-icons/si";
+import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 export const linksNavigation: NavLinksType[] = [
     {
@@ -48,13 +49,13 @@ export const stats: StatsType[] = [
 export const services: ServicesType[] = [
     {
         num: "01",
-        title: "Développement web",
-        description: "",
+        title: "Développement web front-end",
+        description: "Développement d'application web avec Next.js, React et TypeScript",
     },
     {
         num: "02",
         title: "Création de SaaS",
-        description: "Développement de SaaS avec Next.js",
+        description: "Création de SaaS avec Next.js",
     },
     {
         num: "03",
@@ -218,4 +219,24 @@ export const projects: ProjectType[] = [
         live: '',
         github: '',
     },
+]
+
+/** CONTACT */
+
+export const infosContact: InfosType[] = [
+    {
+        icon: FaPhoneAlt,
+        title: 'Téléphone',
+        description: '(+33)6 71 39 09 12'
+    },
+    {
+        icon: FaEnvelope,
+        title: 'Email',
+        description: 'arnaud.pantenier@gmail.com'
+    },
+    {
+        icon: FaMapMarkerAlt,
+        title: 'Localité',
+        description: 'Nancy, France'
+    }
 ]

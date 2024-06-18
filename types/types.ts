@@ -70,3 +70,9 @@ export type ProjectType = {
 }
 
 type StackList = 'Next' | 'React' | 'TypeScript' | 'Firebase' | 'Tailwind' | 'ShadCN'
+
+export type InfosType = {
+    icon: IconType
+    title: string
+    description: string;
+}

@@ -3,6 +3,7 @@ import Socials from "@/components/Socials";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -13,22 +14,27 @@ export default function Home() {
                         <span className="text-sm xl:text-lg text-white/70">
                             Développeur Web
                         </span>
-                        <h1 className="h1 mb-5 mt-2">
+                        <p className="h1 mb-5 mt-2">
                             Hello, je suis <br />
                             <span className="text-accent">Arnaud</span>
-                        </h1>
-                        <p className="max-w-[500px] mb-5 text-white">
-                            Développeur Front-end Next & React
                         </p>
+                        <h1 className="text-xl max-w-[500px] mb-5 text-white">
+                            Développeur Front-end Next & React
+                        </h1>
                         <div className="flex flex-col xl:flex-row items-center gap-8 mb-2">
-                            <Button
-                                variant="outline"
-                                size="lg"
-                                className="uppercase flex items-center gap-2 px-4 py-1"
+                            <Link
+                                href="https://flowcv.com/resume/kgrlfo7rug"
+                                target="_blank"
                             >
-                                <span>Mon CV</span>
-                                <Download size={28} />
-                            </Button>
+                                <Button
+                                    variant="outline"
+                                    size="lg"
+                                    className="uppercase flex items-center gap-2 px-4 py-1"
+                                >
+                                    <span>Mon CV</span>
+                                    <Download size={28} />
+                                </Button>
+                            </Link>
                             <div className="mb-5 xl:mb-0">
                                 <Socials />
                             </div>
