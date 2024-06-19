@@ -29,7 +29,7 @@ const Services = () => {
                             </div>
                             <h2 className="text-accent text-xl xl:text-2xl">{service.title}</h2>
                             <p className="text-white/70">{service.description}</p>
-                            <div className="border-b border-white/20 w-full"></div>
+                            <div className="border-b border-white/20 w-full mt-1"></div>
                         </div>
                     ))}
                 </motion.div>

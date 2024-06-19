@@ -12,7 +12,7 @@ const JetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Portfolio Arnaud P.",
+    title: "Portfolio Arnaud P. développeur front-end react next",
     description: "Portfolio développeur web next react typescript en Lorraine, Nancy",
 };
 
