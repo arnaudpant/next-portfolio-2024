@@ -39,10 +39,10 @@ export const stats: StatsType[] = [
         num: 824,
         text: "Commits",
     },
-    {
-        num: 36,
-        text: "Pull Request",
-    },
+    // {
+    //     num: 36,
+    //     text: "Pull Request",
+    // },
 ];
 
 /** SERVICE */

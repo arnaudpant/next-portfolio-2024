@@ -15,11 +15,11 @@ export default function Home() {
                             Développeur Web
                         </span>
                         <p className="h1 mb-5 mt-2">
-                            Hello, je suis <br />
-                            <span className="text-accent">Arnaud</span>
+                            Hello,  <br />
+                            je suis <span className="text-accent">Arnaud</span>
                         </p>
-                        <h1 className="text-xl max-w-[500px] mb-5 text-white">
-                            Développeur Front-end Next & React
+                        <h1 className="text-xl xl:text-2xl max-w-[500px] mb-5 text-white">
+                            Développeur Front-end <span className="text-accent">Next.js</span> & <span className="text-accent">React</span>
                         </h1>
                         <div className="flex flex-col xl:flex-row items-center gap-8 mb-2">
                             <Link

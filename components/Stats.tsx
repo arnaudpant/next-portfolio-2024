@@ -1,7 +1,6 @@
 "use client";
 
 import { stats } from "@/lib/data";
-import { StatsType } from "@/types/types";
 import CountUp from "react-countup";
 
 const Stats = () => {

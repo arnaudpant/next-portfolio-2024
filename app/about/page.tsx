@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/tooltip";
 import { about, education, experience, skillsList } from "@/lib/data";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const About = () => {
     return (
@@ -19,7 +20,7 @@ const About = () => {
                 opacity: 1,
                 transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
             }}
-            className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
+            className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0 mb-10"
         >
             <div className="container mx-auto">
                 <Tabs
@@ -27,24 +28,25 @@ const About = () => {
                     className="flex flex-col xl:flex-row gap-[60px]"
                 >
                     <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0">
+                        <TabsTrigger value={"about"}>A propos</TabsTrigger>
                         <TabsTrigger value={"experience"}>
-                            Experience
+                            Experiences
                         </TabsTrigger>
                         <TabsTrigger value={"formation"}>
                             Formations
                         </TabsTrigger>
                         <TabsTrigger value={"skills"}>Skills</TabsTrigger>
-                        <TabsTrigger value={"about"}>A propos</TabsTrigger>
                     </TabsList>
 
-                    <div className="min-h-[70vh] w-full">
+                    <div className="min-h-[70vh] w-full text-sm">
                         {/* A PROPOS */}
                         <TabsContent value="about" className="w-full">
                             <div className="flex flex-col gap-[30px] text-left">
                                 <h3 className="text-xl">{about.title}</h3>
-                                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
-                                    {about.description}
-                                </p>
+                                <div className="flex flex-wrap justify-center gap-4">
+                                    <Image src="/about/M2D.png" width={300} height={100} alt="Mirage 2000 au décollage" className="rounded-xl"/>
+                                    <Image src="/about/canal.png" width={300} height={100} alt="Mirage 2000 au décollage" className="rounded-xl"/>
+                                </div>
                                 <h3 className="text-lg px-8 md:px-0">
                                     De la maintenance des Mirages 2000 🚀 au
                                     développement web 👨🏼‍💻{" "}
