@@ -39,10 +39,6 @@ export const stats: StatsType[] = [
         num: 824,
         text: "Commits",
     },
-    // {
-    //     num: 36,
-    //     text: "Pull Request",
-    // },
 ];
 
 /** SERVICE */
@@ -50,27 +46,26 @@ export const services: ServicesType[] = [
     {
         num: "01",
         title: "Développement web front-end",
-        description: "Je suis spécialisé en Next.js et React, des frameworks modernes et puissants qui permettent de créer des applications web performantes et réactives, avec des interfaces utilisateur intuitives et esthétiques. Mon objectif est de transformer vos idées en réalités numériques robustes et évolutives.",
+        description: "Je suis spécialisé en Next.js et React, des frameworks modernes et puissants qui permettent de créer des applications web performantes, avec des interfaces utilisateur intuitives et esthétiques. Mon objectif est de transformer vos idées en réalités numériques robustes et évolutives.",
     },
     {
         num: "02",
         title: "Création de SaaS",
-        description: "Avec Next.js, je développe des applications SaaS (Software as a Service) efficaces et évolutives. Je suis capable de transformer vos besoins métier en solutions technologiques concrètes, en offrant une expérience utilisateur de haute qualité.",
+        description: "Avec Next.js, je développe des applications SaaS (Software as a Service) efficaces. Je suis capable de transformer vos besoins métier en solutions technologiques concrètes, avec une expérience utilisateur de haute qualité.",
     },
     {
         num: "03",
-        title: "Création de site vitrine",
-        description: "Je conçois et développe des sites vitrines et des landing pages percutantes qui mettent en valeur vos produits ou services. Je crée des pages rapides à charger et optimisées pour le référencement (SEO). Chaque projet est réalisé sur mesure, avec une attention particulière portée au design et à l'ergonomie, afin de maximiser l'impact visuel et l'engagement des visiteurs. Mon objectif est de vous aider à captiver votre audience et à convertir les visiteurs en clients.",
+        title: "Création de sites internet",
+        description: "Je conçois et développe des sites vitrines et des landing pages qui mettent en valeur vos produits ou services, optimisées pour le référencement (SEO). Chaque projet est réalisé sur mesure, avec une attention particulière portée au design et à l'ergonomie, afin de maximiser l'impact visuel et l'engagement des visiteurs. Mon objectif est de vous aider à captiver votre audience et à convertir les visiteurs en clients.",
     },
     {
         num: "04",
-        title: "Création de site e-commerce",
-        description: "Je propose la création de sites e-commerce avec Next.js ou WordPress. Grâce à mon expérience, je développe des plateformes de vente en ligne qui offrent une navigation fluide, une gestion simplifiée des produits et un processus de commande sécurisé. Que vous choisissiez Next.js pour une solution sur mesure ou WordPress pour sa flexibilité et ses nombreuses extensions, je m'engage à fournir une boutique en ligne qui répond à vos besoins et à ceux de vos clients.",
+        title: "Création de sites E-commerce",
+        description: "Je propose la création de sites E-commerce avec Next.js ou WordPress. Je développe des plateformes de vente en ligne qui offrent une gestion simplifiée des produits et un processus de commande sécurisé. Que vous choisissiez Next.js pour une solution sur mesure ou WordPress pour sa flexibilité et ses nombreuses extensions, je m'engage à fournir une boutique en ligne qui répond à vos besoins et à ceux de vos clients.",
     },
 ];
 
 /** ABOUT */
-
 // Experiences Pro
 export const experience: ExperiencesType = {
     icon: "/resume/badge.svg",
@@ -156,7 +151,6 @@ export const skillsList: SkillsType = {
 };
 
 /** PORTFOLIO */
-
 export const projects: ProjectType[] = [
     {
         num: '01',
@@ -191,7 +185,6 @@ export const projects: ProjectType[] = [
 ]
 
 /** CONTACT */
-
 export const infosContact: InfosType[] = [
     {
         icon: FaPhoneAlt,
