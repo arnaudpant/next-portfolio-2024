@@ -9,10 +9,8 @@ import {
     TooltipTrigger,
 } from "@/components/ui/tooltip";
 import {
-    education,
     experience,
     formation,
-    formations,
     skillsList,
 } from "@/lib/data";
 import { motion } from "framer-motion";
@@ -118,7 +116,7 @@ const About = () => {
                                 </p>
                                 <ScrollArea className="h-[400px]">
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
-                                        {/* {education.items.map((item, index) => (
+                                        {experience.items.map((item, index) => (
                                             <li
                                                 key={index}
                                                 className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start"
@@ -129,11 +127,12 @@ const About = () => {
                                                 <h3 className="text-lg text-accent max-w-[260px] min-h-[60px] text-center lg:text-left">
                                                     {item.poste}
                                                 </h3>
+                                                <p>{item.description}</p>
                                                 <span className="text-white/60 text-sm pt-2">
                                                     {item.company}
                                                 </span>
                                             </li>
-                                        ))} */}
+                                        ))}
                                     </ul>
                                 </ScrollArea>
                             </div>
