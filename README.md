@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Mon Portfolio Développeur
 
-First, run the development server:
+Bienvenue sur mon portfolio GitHub ! Ce repository contient les projets et les expériences qui démontrent mes compétences en développement web front-end, en particulier avec React et TypeScript. Vous y trouverez également des exemples de mes travaux.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Technologies principales Utilisées
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js** : Utilisation pour le rendu côté serveur et les optimisations de performance.
+- **React** : Développement de composants dynamiques et interactifs.
+- **TypeScript** : Utilisation pour la typage statique et la robustesse du code.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Projets
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Projet 1 : Application de Gestion de Bouteilles
+Une application pour gérer des bouteilles dans des racks virtuels, avec des fonctionnalités d'ajout, de suppression et de visualisation des stocks, ainsi qu'un historique des bouteilles consommées. Utilisation de Firebase pour l'authentification et la base de données.
 
-## Learn More
+### Projet 2 : E-commerce
+Un site de vente en ligne de vêtements entre particuliers, développé avec React et Firebase. Ce projet met en avant une interface utilisateur intuitive et des fonctionnalités avancées comme la gestion des paiements et des utilisateurs.
 
-To learn more about Next.js, take a look at the following resources:
+### Projet 3 : Site Vitrine
+Ce projet est un site vitrine pour une naturopathe, conçu avec Figma et développé en React. Il inclut des fonctionnalités comme la prise de rendez-vous en ligne et un blog.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Configuration du Projet
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clonez le repository : `git clone https://github.com/arnaudpant/next-portfolio-2024.git`
+2. Naviguez dans le dossier du projet
+3. Installez les dépendances : `npm install`
+4. Lancez l'application : `npm run dev`
 
-## Deploy on Vercel
+## 📝 Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Vous pouvez me contacter via :
+- **Email** 
+- **LinkedIn** 
+(liens dans mon portfolio)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Merci de visiter mon portfolio !

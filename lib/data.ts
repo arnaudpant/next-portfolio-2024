@@ -165,8 +165,8 @@ export const projects: ProjectType[] = [
         description: "J'ai développé une application de gestion de cave à vin complète pour les amateurs de vin. Les utilisateurs peuvent organiser leurs bouteilles dans des racks virtuels, facilitant ainsi la gestion visuelle et pratique de leur cave. L'ajout et la suppression de bouteilles sont simplifiés grâce à une interface intuitive, permettant de mettre à jour leurs stocks rapidement et efficacement. La visualisation des stocks est également intégrée, offrant une vue d'ensemble claire et détaillée du contenu de la cave.",
         stacks: ['React', 'TypeScript', 'Firebase'],
         image: '/portfolio/site1.png',
-        live: '',
-        github: '',
+        live: 'https://rack-a-pinard.web.app/',
+        github: 'https://github.com/arnaudpant/ts-rack-pinard',
     },
     {
         num: '02',
@@ -175,8 +175,8 @@ export const projects: ProjectType[] = [
         description: 'Cette application permet aux utilisateurs de créer des annonces, de parcourir les produits disponibles, et de finaliser des transactions en ligne de manière sécurisée.',
         stacks: ['React', 'TypeScript', 'Firebase'],
         image: '/portfolio/site2.png',
-        live: '',
-        github: '',
+        live: 'https://bootcamp-vinted.netlify.app/',
+        github: 'https://github.com/arnaudpant/vinted',
     },
     {
         num: '03',
@@ -185,8 +185,8 @@ export const projects: ProjectType[] = [
         description: "En collaboration avec la cliente, j'ai développé un site vitrine mettant en avant ses services et approches naturelles. Utilisant Figma pour le design initial, nous avons créé une interface utilisateur qui reflète l'identité visuelle de sa pratique. Le site inclut des sections détaillant les services proposés, les ateliers, etc.",
         stacks: ['React', 'TypeScript'],
         image: '/portfolio/site3.png',
-        live: '',
-        github: '',
+        live: 'https://www.joelle-corda-naturopathe.fr/index.html',
+        github: 'https://github.com/arnaudpant/ts-njoylife',
     },
 ]
 
