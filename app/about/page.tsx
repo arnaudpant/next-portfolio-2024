@@ -8,7 +8,7 @@ import {
     TooltipProvider,
     TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { about, education, experience, skillsList } from "@/lib/data";
+import { about, education, experience, formations, skillsList } from "@/lib/data";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -90,8 +90,8 @@ const About = () => {
                                 </p>
                             </div>
                         </TabsContent>
-                        {/* EXPERIENCES */}
-                        <TabsContent value="experience" className="w-full">
+                        {/* FORMATIONS */}
+                        <TabsContent value="formation" className="w-full">
                             <div className="flex flex-col gap-[30px] text-center xl:text-left">
                                 <h3 className="text-xl">{experience.title}</h3>
                                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
@@ -188,8 +188,8 @@ const About = () => {
                                 </ScrollArea>
                             </div>
                         </TabsContent>
-                        {/* FORMATIONS */}
-                        <TabsContent value="formation" className="w-full">
+                        {/* EXPERIENCE */}
+                        <TabsContent value="experience" className="w-full">
                             <div className="flex flex-col gap-[30px] text-center xl:text-left">
                                 <h3 className="text-xl">{experience.title}</h3>
                                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">

@@ -30,7 +30,12 @@ export type ExperiencesType = {
     icon: string,
     title: string,
     description: string
-    items: ExperiencesItemsType[]
+}
+
+export type FormationsType = {
+    icon: string,
+    title: string,
+    description: string
 }
 
 type ExperiencesItemsType = {
