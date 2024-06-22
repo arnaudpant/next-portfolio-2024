@@ -46,8 +46,8 @@ const About = () => {
                         {/* A PROPOS */}
                         <TabsContent value="about" className="w-full">
                             <div className="flex flex-col gap-[30px] text-left">
-                                <h2 className="text-xl">A propos</h2>
-                                <h3 className="text-lg px-8 md:px-0">
+                                <h2 className="text-xl">Ma petite histoire</h2>
+                                <h3 className="text-lg px-5 md:px-0">
                                     De la maintenance des Mirages 2000 🚀 au
                                     développement web 👨🏼‍💻{" "}
                                 </h3>
@@ -109,7 +109,7 @@ const About = () => {
                         </TabsContent>
                         {/* EXPERIENCES PRO */}
                         <TabsContent value="experiences" className="w-full">
-                            <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                            <div className="flex flex-col gap-[30px] text-left">
                                 <h3 className="text-xl">{experience.title}</h3>
                                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                                     {experience.description}
@@ -146,17 +146,17 @@ const About = () => {
                                 </p>
                                 <ScrollArea className="h-[600px]">
                                     <div className="flex flex-col gap-[30px]">
-                                        <div className="bg-[#232329] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start">
+                                        <div className="bg-[#232329] py-6 px-5 rounded-xl flex flex-col justify-center items-center lg:items-start">
                                             <span className="text-white/60 text-sm pb-1">
                                                 Avril 2024 - Juillet 2024
                                             </span>
                                             <h2 className="text-lg text-accent min-h-[60px] text-center lg:text-left">
                                                 Front-end et chef de projet
                                             </h2>
-                                            <h3 className="text-md pb-4 text-center lg:text-left">
+                                            <h3 className="text-md pb-4 pt-2 text-center lg:text-left text-white/60">
                                                 Projet en équipe agile
                                             </h3>
-                                            <p className="text-white text-md leading-6">
+                                            <p className="text-white text-md text-left leading-6">
                                                 J&apos;ai dirigé le
                                                 développement d&apos;un site
                                                 internet facilitant la mise en
@@ -168,17 +168,17 @@ const About = () => {
                                                 développeurs, a suivi la
                                                 méthodologie Agile Scrum
                                             </p>
-                                            <ul className="pt-2 text-white text-md leading-6">
+                                            <ul className="pt-2 text-white text-md text-left leading-6">
                                                 <li className="mt-6">
-                                                    <p className="font-semibold">
+                                                    <p className="font-semibold text-accent">
                                                         1. Gestion de Projet :
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Coordination de
                                                         l&apos;équipe de
                                                         développement.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Organisation des
                                                         réunions de sprint
                                                         planning, rétrospectives
@@ -188,59 +188,59 @@ const About = () => {
                                                         et une progression
                                                         constante.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Supervision de la
                                                         planification des tâches
                                                         et gestion du backlog
-                                                        produit
+                                                        produit.
                                                     </p>
                                                 </li>
                                                 <li className="mt-6">
-                                                    <p className="font-semibold">
+                                                    <p className="font-semibold text-accent">
                                                         2. Développement
                                                         Front-End :
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Développement de
                                                         l&apos;interface
                                                         utilisateur en utilisant
-                                                        React et TypeScript
+                                                        React et TypeScript.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Revue de code des Pull
-                                                        Request
+                                                        Request.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Supervision de la
                                                         planification des tâches
                                                         et gestion du backlog
-                                                        produit
+                                                        produit.
                                                     </p>
                                                 </li>
                                                 <li className="mt-6">
-                                                    <p className="font-semibold">
+                                                    <p className="font-semibold text-accent">
                                                         3. Utilisation
                                                         Professionnelle de Git
                                                         et GitHub :
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Gestion de projets
                                                         collaboratifs avec Git
                                                         et GitHub.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Création et gestion
                                                         des pull requests pour
                                                         intégrer les changements
-                                                        de code
+                                                        de code.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Utilisation des issues
                                                         pour suivre les bugs et
                                                         les nouvelles
                                                         fonctionnalités.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Participation aux
                                                         revues de code pour
                                                         assurer la qualité et la
@@ -249,7 +249,7 @@ const About = () => {
                                                     </p>
                                                 </li>
                                                 <li className="mt-6">
-                                                    <p className="font-semibold">
+                                                    <p className="font-semibold text-accent">
                                                         Résultat :
                                                     </p>
                                                     <p>
@@ -258,7 +258,7 @@ const About = () => {
                                                         renforcer mes
                                                         compétences en gestion
                                                         de projet et
-                                                        développement front-end
+                                                        développement front-end.
                                                     </p>
                                                 </li>
                                             </ul>
@@ -270,17 +270,17 @@ const About = () => {
                                 </ScrollArea>
                                 <ScrollArea className="h-[600px]">
                                     <div className="flex flex-col gap-[30px]">
-                                        <div className="bg-[#232329] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start">
+                                        <div className="bg-[#232329] py-6 px-5 rounded-xl flex flex-col justify-center items-center lg:items-start">
                                             <span className="text-white/60 text-sm pb-1">
                                                 Décembre 2023 - Mars 2024
                                             </span>
-                                            <h2 className="text-lg text-accent min-h-[60px] text-center lg:text-left">
+                                            <h2 className="text-lg text-accent min-h-[40px] text-center lg:text-left">
                                                 Front-end et Back-end
                                             </h2>
-                                            <h3 className="text-md pb-4 text-center lg:text-left">
+                                            <h3 className="text-md pb-4 pt-2 text-center lg:text-left text-white/60">
                                                 Projet en équipe agile
                                             </h3>
-                                            <p className="text-white text-md leading-6">
+                                            <p className="text-white text-md text-left leading-6">
                                                 En tant que développeur web,
                                                 j&apos;ai participé au
                                                 développement d&apos;un site de
@@ -294,13 +294,13 @@ const About = () => {
                                                 Firebase, ainsi que le
                                                 déploiement continu.
                                             </p>
-                                            <ul className="pt-2 text-white text-md leading-6">
+                                            <ul className="pt-2 text-white text-md text-left leading-6">
                                                 <li className="mt-6">
-                                                    <p className="font-semibold">
+                                                    <p className="font-semibold text-accent">
                                                         1. Développement
                                                         Back-end :
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Conception et
                                                         développement de
                                                         l&apos;architecture
@@ -311,7 +311,7 @@ const About = () => {
                                                         stockage sécurisé des
                                                         données.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Mise en œuvre des
                                                         fonctionnalités de
                                                         gestion des
@@ -322,7 +322,7 @@ const About = () => {
                                                         et Firebase Realtime
                                                         Database.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Configuration et
                                                         intégration de Firebase
                                                         Authentication pour
@@ -335,11 +335,11 @@ const About = () => {
                                                     </p>
                                                 </li>
                                                 <li className="mt-6">
-                                                    <p className="font-semibold">
+                                                    <p className="font-semibold text-accent">
                                                         2. Développement
                                                         Front-end :
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Création de la page
                                                         d&apos;accueil en
                                                         utilisant React et
@@ -351,7 +351,7 @@ const About = () => {
                                                         Vinted grace à
                                                         l&apos;IA.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Développement des
                                                         formulaires de connexion
                                                         et d&apos;ajout de
@@ -362,7 +362,7 @@ const About = () => {
                                                         sécurisée, avec
                                                         React-hook-form.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Optimisation des
                                                         performances pour une
                                                         navigation rapide avec
@@ -370,10 +370,10 @@ const About = () => {
                                                     </p>
                                                 </li>
                                                 <li className="mt-6">
-                                                    <p className="font-semibold">
+                                                    <p className="font-semibold text-accent">
                                                         Résultat :
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         Ce projet m&apos;a
                                                         permis de renforcer mes
                                                         compétences en
@@ -398,7 +398,7 @@ const About = () => {
                                 </ScrollArea>
                                 <ScrollArea className="h-[600px]">
                                     <div className="flex flex-col gap-[30px]">
-                                        <div className="bg-[#232329] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start">
+                                        <div className="bg-[#232329] py-6 px-5 rounded-xl flex flex-col justify-center items-center lg:items-start">
                                             <span className="text-white/60 text-sm pb-1">
                                                 Mai 2023 - Mars 2024
                                             </span>
@@ -409,7 +409,7 @@ const About = () => {
                                             <h3 className="text-md pb-4 text-center lg:text-left">
                                                 Bootcamp React Mastery
                                             </h3>
-                                            <p className="text-white text-md leading-6">
+                                            <p className="text-white text-md leading-6 text-left">
                                                 J&apos;ai suivi la formation
                                                 Bootcamp React Mastery, un
                                                 programme intensif, conçu pour
@@ -423,12 +423,12 @@ const About = () => {
                                                 précieuse pour un développeur
                                                 front-end moderne.
                                             </p>
-                                            <ul className="pt-2 text-white text-md leading-6">
+                                            <ul className="pt-2 text-white text-md leading-6 text-left">
                                                 <li className="mt-6">
-                                                    <p className="font-semibold">
+                                                    <p className="font-semibold text-accent">
                                                         1. Maîtrise de React :
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Compréhension des
                                                         bases de React :
                                                         composants fonctionnels
@@ -436,22 +436,22 @@ const About = () => {
                                                         hooks, et gestion des
                                                         événements.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Création de composants
                                                         réutilisables et de
                                                         haute performance.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Gestion de l&apos;état
                                                         global avec Context API
                                                         et Redux.
                                                     </p>
                                                 </li>
                                                 <li className="mt-6">
-                                                    <p className="font-semibold">
+                                                    <p className="font-semibold text-accent">
                                                         2. TypeScript :
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         Bien que cette formation
                                                         était en Javascript,
                                                         j&apos;ai profité de
@@ -461,7 +461,7 @@ const About = () => {
                                                         exercices et TP avec
                                                         TypeScript.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Introduction et mise
                                                         en œuvre de TypeScript
                                                         dans des projets React
@@ -469,13 +469,13 @@ const About = () => {
                                                         et une meilleure gestion
                                                         des erreurs.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Utilisation des
                                                         interfaces et types pour
                                                         renforcer la robustesse
                                                         du code.
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Intégration de
                                                         TypeScript avec les
                                                         bibliothèques et outils
@@ -483,17 +483,17 @@ const About = () => {
                                                     </p>
                                                 </li>
                                                 <li className="mt-6">
-                                                    <p className="font-semibold">
+                                                    <p className="font-semibold text-accent">
                                                         3. Tests et Qualité du
                                                         Code :
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Réalisation de tests
                                                         unitaires,
                                                         d&apos;intégration et
                                                         end-to-end (E2E).
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Utilisation de
                                                         frameworks comme Vitest,
                                                         React Testing Library et
@@ -501,10 +501,10 @@ const About = () => {
                                                     </p>
                                                 </li>
                                                 <li className="mt-6">
-                                                    <p className="font-semibold">
+                                                    <p className="font-semibold text-accent">
                                                         4. Design Patterns :
                                                     </p>
-                                                    <p>
+                                                    <p className="pt-3">
                                                         - Apprentissage et
                                                         implémentation des
                                                         design patterns pour
@@ -514,7 +514,7 @@ const About = () => {
                                                 </li>
 
                                                 <li className="mt-6">
-                                                    <p className="font-semibold">
+                                                    <p className="font-semibold text-accent">
                                                         Résultat :
                                                     </p>
                                                     <p>

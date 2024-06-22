@@ -78,16 +78,16 @@ export const experience: ExperiencesType = {
     description: "Je développe des sites depuis 2019.",
     items: [
         {
-            company: "HuilesVak",
-            poste: "Développeur WordPress",
-            duration: "Septembre 2023 - Aujourd'hui",
-            description: "Création d'site E-commerce avec WordPress, WooCommerce, Stripe."
-        },
-        {
             company: "N'JoyLife",
             poste: "Développeur web",
             duration: "Septembre 2020 - Aujourd'hui",
             description: "Création d'un site vitrine pour un professionnel."
+        },
+        {
+            company: "HuilesVak",
+            poste: "Développeur WordPress",
+            duration: "Septembre 2023 - Aujourd'hui",
+            description: "Création d'site E-commerce avec WordPress, WooCommerce, Stripe."
         },
     ],
 };
@@ -180,7 +180,7 @@ export const projects: ProjectType[] = [
     },
     {
         num: '03',
-        category: 'Frontend & Backend',
+        category: 'Frontend & Design',
         title: "Site vitrine",
         description: "En collaboration avec la cliente, j'ai développé un site vitrine mettant en avant ses services et approches naturelles. Utilisant Figma pour le design initial, nous avons créé une interface utilisateur qui reflète l'identité visuelle de sa pratique. Le site inclut des sections détaillant les services proposés, les ateliers, etc.",
         stacks: ['React', 'TypeScript'],
