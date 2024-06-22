@@ -1,4 +1,4 @@
-import { ExperiencesType, InfosType, NavLinksType, ProjectType, ResumeType, ServicesType, SkillsType, StatsType } from "@/types/types";
+import { ExperiencesType, FormationsType, InfosType, NavLinksType, ProjectType, ResumeType, ServicesType, SkillsType, StatsType } from "@/types/types";
 import { FaHtml5, FaCss3Alt, FaJs, FaGithub, FaReact, FaSass, FaWordpress, FaFigma, FaPhoneAlt } from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiTypescript, SiFirebase } from "react-icons/si";
 import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
@@ -72,53 +72,19 @@ export const services: ServicesType[] = [
 /** ABOUT */
 export const about: ResumeType = {
     title: "A propos",
-    description: "bla bla",
+    description: "",
 };
 
 export const experience: ExperiencesType = {
     icon: "/resume/badge.svg",
     title: "Mes expériences professionnelles",
-    description: "Je développe des sites depuis 2019",
-    items: [
-        {
-            company: "MikeCodeur",
-            poste: "Front-end et chef de projet",
-            duration: "Avril 2024 - Aujourd'hui",
-            description: "j'ai mené le développement d'un site de mise en relation entre des familles d'accueil et des apprenants pour des séjours linguistiques en France. Ce projet a été réalisé au sein d'une équipe suivant la méthodologie Agile Scrum."
-        },
-        {
-            company: "HuilesVak",
-            poste: "Création site E-commerce avec WordPress, WooCommerce",
-            duration: "Mars 2024 - Aujourd'hui",
-            description: ''
-        },
-        {
-            company: "N'JoyLife",
-            poste: "Design et Front-end",
-            duration: "Décembre 2023 - Aujourd'hui",
-            description: ''
-        },
-    ],
+    description: "Je développe des sites depuis 2019.",
 };
 
-export const education: ExperiencesType = {
+export const formation: FormationsType = {
     icon: "/resume/cap.svg",
     title: "Formations",
     description: "",
-    items: [
-        {
-            company: "React Mastery",
-            poste: "Développeur React",
-            duration: "Mai 2023 - Février 2024",
-            description: ''
-        },
-        {
-            company: "Cours en ligne",
-            poste: "HTML CSS Javascript",
-            duration: "Septembre 2020 - Mai 2023",
-            description: ''
-        },
-    ],
 };
 
 export const skillsList: SkillsType = {
@@ -231,3 +197,18 @@ export const infosContact: InfosType[] = [
         description: 'Nancy, France'
     }
 ]
+
+// items: [
+//     {
+//         company: "MikeCode",
+//         poste: "Développeur React",
+//         duration: "Mai 2023 - Février 2024",
+//         description: 'Développeur React'
+//     },
+//     {
+//         company: "Cours en ligne",
+//         poste: "HTML CSS Javascript",
+//         duration: "Septembre 2020 - Mai 2023",
+//         description: ''
+//     },
+// ],
