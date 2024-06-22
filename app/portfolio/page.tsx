@@ -38,7 +38,10 @@ const Portfolio = () => {
                             <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
                                 {currentProject.category}
                             </h2>
-                            <p className="text-white/60">
+                            <h3 className="text-white">
+                                {currentProject.title}
+                            </h3>
+                            <p className="text-white/60 text-sm">
                                 {currentProject.description}
                             </p>
                             <ul className="flex gap-4">
@@ -105,7 +108,7 @@ const Portfolio = () => {
                             <WorkSliderBtn
                                 containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
                                 btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
-                                iconsStyles=''
+                                iconsStyles=""
                             />
                         </Swiper>
                     </div>
