@@ -70,21 +70,19 @@ export const services: ServicesType[] = [
 ];
 
 /** ABOUT */
-export const about: ResumeType = {
-    title: "A propos",
-    description: "",
-};
 
+// Experiences Pro
 export const experience: ExperiencesType = {
     icon: "/resume/badge.svg",
     title: "Mes expériences professionnelles",
     description: "Je développe des sites depuis 2019.",
 };
 
+// Formations
 export const formation: FormationsType = {
     icon: "/resume/cap.svg",
-    title: "Formations",
-    description: "",
+    title: "Les formations de développeurs suivies",
+    description: "J'ai commencé à me former en autodidacte avant de me professionnaliser avec une formation React Mastery",
 };
 
 export const skillsList: SkillsType = {
