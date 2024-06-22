@@ -87,7 +87,7 @@ export const experience: ExperiencesType = {
             company: "HuilesVak",
             poste: "Développeur WordPress",
             duration: "Septembre 2023 - Aujourd'hui",
-            description: "Création d'site E-commerce avec WordPress, WooCommerce, Stripe."
+            description: "Création d'un site E-commerce avec WordPress, WooCommerce, Stripe."
         },
     ],
 };
