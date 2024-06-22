@@ -29,7 +29,14 @@ type InfoResumeType = {
 export type ExperiencesType = {
     icon: string,
     title: string,
-    description: string
+    description: string,
+    items: ItemsExperienceType[]
+}
+export type ItemsExperienceType = {
+    company: string;
+    poste: string;
+    duration: string;
+    description: string;
 }
 
 export type FormationsType = {

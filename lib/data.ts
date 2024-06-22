@@ -76,6 +76,20 @@ export const experience: ExperiencesType = {
     icon: "/resume/badge.svg",
     title: "Mes expériences professionnelles",
     description: "Je développe des sites depuis 2019.",
+    items: [
+        {
+            company: "HuilesVak",
+            poste: "Développeur WordPress",
+            duration: "Septembre 2023 - Aujourd'hui",
+            description: "Création d'site E-commerce avec WordPress, WooCommerce, Stripe."
+        },
+        {
+            company: "N'JoyLife",
+            poste: "Développeur web",
+            duration: "Septembre 2020 - Aujourd'hui",
+            description: "Création d'un site vitrine pour un professionnel."
+        },
+    ],
 };
 
 // Formations
@@ -195,18 +209,3 @@ export const infosContact: InfosType[] = [
         description: 'Nancy, France'
     }
 ]
-
-// items: [
-//     {
-//         company: "MikeCode",
-//         poste: "Développeur React",
-//         duration: "Mai 2023 - Février 2024",
-//         description: 'Développeur React'
-//     },
-//     {
-//         company: "Cours en ligne",
-//         poste: "HTML CSS Javascript",
-//         duration: "Septembre 2020 - Mai 2023",
-//         description: ''
-//     },
-// ],
