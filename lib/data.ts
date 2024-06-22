@@ -100,8 +100,8 @@ export const formation: FormationsType = {
 };
 
 export const skillsList: SkillsType = {
-    title: "Mes skills",
-    description: "Bla bla",
+    title: "Mes technos",
+    description: "Liste des technologies utilisés",
     skillsList: [
         {
             icon: SiNextdotjs,
