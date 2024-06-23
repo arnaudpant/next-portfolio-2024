@@ -81,7 +81,7 @@ export type ProjectType = {
     github?: string;
 }
 
-type StackList = 'Next' | 'React' | 'TypeScript' | 'Firebase' | 'Tailwind' | 'ShadCN'
+type StackList = 'Next' | 'React' | 'TypeScript' | 'Firebase' | 'Tailwind' | 'ShadCN' | 'Figma'
 
 export type InfosType = {
     icon: IconType

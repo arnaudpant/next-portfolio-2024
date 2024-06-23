@@ -164,7 +164,7 @@ export const projects: ProjectType[] = [
     },
     {
         num: '02',
-        category: 'Front-end et Back-end',
+        category: 'Front-end | Back-end',
         title: "Site de vente de produits entre particuliers",
         description: 'Cette application permet aux utilisateurs de créer des annonces, de parcourir les produits disponibles, et de finaliser des transactions en ligne de manière sécurisée.',
         stacks: ['React', 'TypeScript', 'Firebase'],
@@ -174,10 +174,10 @@ export const projects: ProjectType[] = [
     },
     {
         num: '03',
-        category: 'Frontend & Design',
-        title: "Site vitrine",
+        category: 'Front-end | Design',
+        title: "Site vitrine pour un client",
         description: "En collaboration avec la cliente, j'ai développé un site vitrine mettant en avant ses services et approches naturelles. Utilisant Figma pour le design initial, nous avons créé une interface utilisateur qui reflète l'identité visuelle de sa pratique. Le site inclut des sections détaillant les services proposés, les ateliers, etc.",
-        stacks: ['React', 'TypeScript'],
+        stacks: ['React', 'TypeScript', 'Figma'],
         image: '/portfolio/site3.png',
         live: 'https://www.joelle-corda-naturopathe.fr/index.html',
         github: 'https://github.com/arnaudpant/ts-njoylife',

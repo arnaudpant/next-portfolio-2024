@@ -19,17 +19,25 @@ const Services = () => {
                             ease: "easeIn",
                         },
                     }}
-                    className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
+                    className="grid grid-cols-1 md:grid-cols-2 gap-10"
                 >
                     {services.map((service, index) => (
-                        <div key={index} className="flex-1 flex flex-col justify-center gap-2">
+                        <div
+                            key={index}
+                            className="flex-1 flex flex-col justify-start gap-2 bg-[#F0F1FE] rounded-xl p-4"
+                        >
                             <div className="w-full flex justify-between items-center">
-                                <div className="text-4xl font-extrabold">{service.num}</div>
+                                <div className="text-4xl font-extrabold">
+                                    {service.num}
+                                </div>
                                 <ArrowDownRight size={36} />
                             </div>
-                            <h2 className="text-accent text-xl xl:text-2xl">{service.title}</h2>
-                            <p className="text-white/70">{service.description}</p>
-                            <div className="border-b border-white/20 w-full mt-1"></div>
+                            <h2 className="text-accent text-xl xl:text-2xl">
+                                {service.title}
+                            </h2>
+                            <p className="text-textcolor/70">
+                                {service.description}
+                            </p>
                         </div>
                     ))}
                 </motion.div>

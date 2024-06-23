@@ -12,8 +12,9 @@ const JetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Portfolio Arnaud P. développeur front-end react next",
-    description: "Portfolio développeur web next react typescript en Lorraine, Nancy",
+    title: "Portfolio de Développeur Web à Nancy | Next.js, React & TypeScript | Disponible pour des postes en Lorraine, Nancy et au Luxembourg",
+    description:
+        "Découvrez le portfolio de Arnaud P., développeur web spécialisé en Next.js, React et TypeScript, basé en Lorraine. Explorez mes projets et compétences en développement front-end.",
 };
 
 export default function RootLayout({

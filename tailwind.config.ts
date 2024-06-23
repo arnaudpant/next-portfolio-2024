@@ -25,10 +25,11 @@ const config = {
       },
     extend: {
       colors: {
-        primary: '#1c1c22',
+        primary: '#F0F1FE',
+        textcolor: '#252627',
         accent: {
-          DEFAULT: "#00ff99",
-          hover: "#00e187",
+          DEFAULT: "#5B5BD6",
+          hover: "#5151CD",
         },
       },
       keyframes: {

@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-zinc-900 font-primary text-white leading-loose;
+    @apply bg-primary font-primary text-textcolor leading-loose;
   }
   .h1 {
     @apply text-[36px] xl:text-[60px] leading-[1.1] font-semibold;

@@ -12,6 +12,7 @@ import { useState } from "react";
 import Image from "next/image";
 import WorkSliderBtn from "@/components/WorkSliderBtn";
 
+
 const Portfolio = () => {
 
     const [currentProject, setCurrentProject] = useState(projects[0])
@@ -35,32 +36,31 @@ const Portfolio = () => {
                             <div className="text-8xl leading-none font-extrabold">
                                 {currentProject.num}
                             </div>
-                            <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
+                            <h2 className="text-[42px] font-bold leading-none text-textcolor group-hover:text-accent transition-all duration-500 capitalize">
                                 {currentProject.category}
                             </h2>
-                            <h3 className="text-white">
+                            <h3 className="text-accent text-xl">
                                 {currentProject.title}
                             </h3>
-                            <p className="text-white/60 text-sm">
+                            <p className="text-textcolor/60 text-sm">
                                 {currentProject.description}
                             </p>
                             <ul className="flex gap-4">
                                 {currentProject.stacks.map((stack, index) => (
                                     <li
                                         key={index}
-                                        className="text-xl text-accent"
+                                        className="text-md text-primary bg-accent rounded-full px-4 py-1"
                                     >
                                         {stack}
                                     </li>
                                 ))}
                             </ul>
-                            <div className="border border-white/20"></div>
                             <div className="flex items-center gap-4">
                                 <Link href="/">
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
-                                            <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center ">
-                                                <BsArrowUpRight className="text-white text-3xl hover:text-accent" />
+                                            <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-textcolor/5 flex justify-center items-center ">
+                                                <BsArrowUpRight className="text-textcolor text-3xl hover:text-accent" />
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <p>Démo</p>
@@ -71,8 +71,8 @@ const Portfolio = () => {
                                 <Link href="/">
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
-                                            <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center ">
-                                                <FaGithub className="text-white text-3xl hover:text-accent" />
+                                            <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-textcolor/5 flex justify-center items-center ">
+                                                <FaGithub className="text-textcolor text-3xl hover:text-accent" />
                                             </TooltipTrigger>
                                             <TooltipContent>
                                                 <p>Github</p>
@@ -92,8 +92,8 @@ const Portfolio = () => {
                         >
                             {projects.map((project, index) => (
                                 <SwiperSlide key={index} className="w-full">
-                                    <div className="h-[300px] xl:h-[460px]  relative group flex justify-center items-center bg-pink-50/20">
-                                        <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
+                                    <div className="h-[300px] xl:h-[460px]  relative group flex justify-center items-center bg-[#E6E7FF]/40 xl:bg-primary">
+                                        <div className="absolute top-0 bottom-0 w-full h-full bg-[#E6E7FF]/5 z-10"></div>
                                         <div className="relative w-full h-full">
                                             <Image
                                                 src={currentProject.image}

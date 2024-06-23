@@ -11,15 +11,17 @@ export default function Home() {
             <div className="container mx-auto h-full">
                 <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
                     <div className="text-center xl:text-left order-2 xl:order-none">
-                        <span className="text-sm xl:text-lg text-white/70">
+                        <span className="text-sm xl:text-lg text-textcolor/70">
                             Développeur Web
                         </span>
                         <p className="h1 mb-5 mt-2">
-                            Hello,  <br />
+                            Hello, <br />
                             je suis <span className="text-accent">Arnaud</span>
                         </p>
-                        <h1 className="text-xl xl:text-2xl max-w-[500px] mb-5 text-white">
-                            Développeur Front-end <span className="text-accent">Next.js</span> & <span className="text-accent">React</span>
+                        <h1 className="text-xl xl:text-2xl max-w-[500px] mb-5 text-textcolor">
+                            Développeur Front-end{" "}
+                            <span className="text-accent">Next.js</span> &{" "}
+                            <span className="text-accent">React</span>
                         </h1>
                         <div className="flex flex-col xl:flex-row items-center gap-8 mb-2">
                             <Link

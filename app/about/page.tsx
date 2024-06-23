@@ -16,6 +16,8 @@ import {
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+
+
 const About = () => {
     return (
         <motion.div
@@ -111,7 +113,7 @@ const About = () => {
                         <TabsContent value="experiences" className="w-full">
                             <div className="flex flex-col gap-[30px] text-left">
                                 <h3 className="text-xl">{experience.title}</h3>
-                                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                                <p className="max-w-[600px] text-primary/60 mx-auto xl:mx-0">
                                     {experience.description}
                                 </p>
                                 <ScrollArea className="h-[400px]">
@@ -119,16 +121,16 @@ const About = () => {
                                         {experience.items.map((item, index) => (
                                             <li
                                                 key={index}
-                                                className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start"
+                                                className="bg-[#E6E7FF] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start"
                                             >
-                                                <span className="text-white/60 text-sm pb-1">
+                                                <span className="text-textcolor/60 text-sm pb-1">
                                                     {item.duration}
                                                 </span>
                                                 <h3 className="text-lg text-accent max-w-[260px] min-h-[60px] text-center lg:text-left">
                                                     {item.poste}
                                                 </h3>
                                                 <p>{item.description}</p>
-                                                <span className="text-white/60 text-sm pt-2">
+                                                <span className="text-textcolor/60 text-sm pt-2">
                                                     {item.company}
                                                 </span>
                                             </li>
@@ -141,22 +143,22 @@ const About = () => {
                         <TabsContent value="formation" className="w-full">
                             <div className="flex flex-col gap-[30px] text-center xl:text-left">
                                 <h3 className="text-xl">{formation.title}</h3>
-                                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                                <p className="max-w-[600px] text-textcolor/60 mx-auto xl:mx-0">
                                     {formation.description}
                                 </p>
                                 <ScrollArea className="h-[600px]">
                                     <div className="flex flex-col gap-[30px]">
-                                        <div className="bg-[#232329] py-6 px-5 rounded-xl flex flex-col justify-center items-center lg:items-start">
-                                            <span className="text-white/60 text-sm pb-1">
+                                        <div className="bg-[#E6E7FF] py-6 px-5 rounded-xl flex flex-col justify-center items-center lg:items-start">
+                                            <span className="text-textcolor/60 text-sm pb-1">
                                                 Avril 2024 - Juillet 2024
                                             </span>
                                             <h2 className="text-lg text-accent min-h-[60px] text-center lg:text-left">
                                                 Front-end et chef de projet
                                             </h2>
-                                            <h3 className="text-md pb-4 pt-2 text-center lg:text-left text-white/60">
+                                            <h3 className="text-md pb-4 pt-2 text-center lg:text-left text-textcolor/60">
                                                 Projet en équipe agile
                                             </h3>
-                                            <p className="text-white text-md text-left leading-6">
+                                            <p className="text-textcolor text-md text-left leading-6">
                                                 J&apos;ai dirigé le
                                                 développement d&apos;un site
                                                 internet facilitant la mise en
@@ -168,7 +170,7 @@ const About = () => {
                                                 développeurs, a suivi la
                                                 méthodologie Agile Scrum
                                             </p>
-                                            <ul className="pt-2 text-white text-md text-left leading-6">
+                                            <ul className="pt-2 text-textcolor text-md text-left leading-6">
                                                 <li className="mt-6">
                                                     <p className="font-semibold text-accent">
                                                         1. Gestion de Projet :
@@ -262,7 +264,7 @@ const About = () => {
                                                     </p>
                                                 </li>
                                             </ul>
-                                            <span className="text-white/60 text-sm pt-5">
+                                            <span className="text-textcolor/60 text-sm pt-5">
                                                 MikeCodeur
                                             </span>
                                         </div>
@@ -270,17 +272,17 @@ const About = () => {
                                 </ScrollArea>
                                 <ScrollArea className="h-[600px]">
                                     <div className="flex flex-col gap-[30px]">
-                                        <div className="bg-[#232329] py-6 px-5 rounded-xl flex flex-col justify-center items-center lg:items-start">
-                                            <span className="text-white/60 text-sm pb-1">
+                                        <div className="bg-[#E6E7FF] py-6 px-5 rounded-xl flex flex-col justify-center items-center lg:items-start">
+                                            <span className="text-textcolor/60 text-sm pb-1">
                                                 Décembre 2023 - Mars 2024
                                             </span>
                                             <h2 className="text-lg text-accent min-h-[40px] text-center lg:text-left">
                                                 Front-end et Back-end
                                             </h2>
-                                            <h3 className="text-md pb-4 pt-2 text-center lg:text-left text-white/60">
+                                            <h3 className="text-md pb-4 pt-2 text-center lg:text-left text-textcolor/60">
                                                 Projet en équipe agile
                                             </h3>
-                                            <p className="text-white text-md text-left leading-6">
+                                            <p className="text-textcolor text-md text-left leading-6">
                                                 En tant que développeur web,
                                                 j&apos;ai participé au
                                                 développement d&apos;un site de
@@ -294,7 +296,7 @@ const About = () => {
                                                 Firebase, ainsi que le
                                                 déploiement continu.
                                             </p>
-                                            <ul className="pt-2 text-white text-md text-left leading-6">
+                                            <ul className="pt-2 text-textcolor text-md text-left leading-6">
                                                 <li className="mt-6">
                                                     <p className="font-semibold text-accent">
                                                         1. Développement
@@ -390,7 +392,7 @@ const About = () => {
                                                     </p>
                                                 </li>
                                             </ul>
-                                            <span className="text-white/60 text-sm pt-5">
+                                            <span className="text-textcolor/60 text-sm pt-5">
                                                 MikeCodeur
                                             </span>
                                         </div>
@@ -398,8 +400,8 @@ const About = () => {
                                 </ScrollArea>
                                 <ScrollArea className="h-[600px]">
                                     <div className="flex flex-col gap-[30px]">
-                                        <div className="bg-[#232329] py-6 px-5 rounded-xl flex flex-col justify-center items-center lg:items-start">
-                                            <span className="text-white/60 text-sm pb-1">
+                                        <div className="bg-[#E6E7FF] py-6 px-5 rounded-xl flex flex-col justify-center items-center lg:items-start">
+                                            <span className="text-textcolor/60 text-sm pb-1">
                                                 Mai 2023 - Mars 2024
                                             </span>
                                             <h2 className="text-lg text-accent min-h-[60px] text-center lg:text-left">
@@ -409,7 +411,7 @@ const About = () => {
                                             <h3 className="text-md pb-4 text-center lg:text-left">
                                                 Bootcamp React Mastery
                                             </h3>
-                                            <p className="text-white text-md leading-6 text-left">
+                                            <p className="text-textcolor text-md leading-6 text-left">
                                                 J&apos;ai suivi la formation
                                                 Bootcamp React Mastery, un
                                                 programme intensif, conçu pour
@@ -423,7 +425,7 @@ const About = () => {
                                                 précieuse pour un développeur
                                                 front-end moderne.
                                             </p>
-                                            <ul className="pt-2 text-white text-md leading-6 text-left">
+                                            <ul className="pt-2 text-textcolor text-md leading-6 text-left">
                                                 <li className="mt-6">
                                                     <p className="font-semibold text-accent">
                                                         1. Maîtrise de React :
@@ -539,7 +541,7 @@ const About = () => {
                                                     </p>
                                                 </li>
                                             </ul>
-                                            <span className="text-white/60 text-sm pt-5">
+                                            <span className="text-textcolor/60 text-sm pt-5">
                                                 MikeCodeur
                                             </span>
                                         </div>
@@ -566,7 +568,7 @@ const About = () => {
                                                     delayDuration={100}
                                                 >
                                                     <Tooltip>
-                                                        <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center">
+                                                        <TooltipTrigger className="w-full h-[150px] bg-[#E6E7FF] rounded-xl flex justify-center items-center">
                                                             <div className="text-6xl">
                                                                 {<skill.icon />}
                                                             </div>
