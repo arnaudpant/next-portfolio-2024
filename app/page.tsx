@@ -20,8 +20,8 @@ export default function Home() {
                         </p>
                         <h1 className="text-xl xl:text-2xl max-w-[500px] mb-5 text-textcolor">
                             Développeur Front-end{" "}
-                            <span className="text-accent">Next.js</span> &{" "}
-                            <span className="text-accent">React</span>
+                            <span className="text-accent">React</span> &{" "}
+                            <span className="text-accent">TypeScript</span>
                         </h1>
                         <div className="flex flex-col xl:flex-row items-center gap-8 mb-2">
                             <Link

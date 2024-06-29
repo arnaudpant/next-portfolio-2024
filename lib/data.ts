@@ -46,7 +46,7 @@ export const services: ServicesType[] = [
     {
         num: "01",
         title: "Développement web front-end",
-        description: "Je suis spécialisé en Next.js et React, des frameworks modernes et puissants qui permettent de créer des applications web performantes, avec des interfaces utilisateur intuitives et esthétiques. Mon objectif est de transformer vos idées en réalités numériques robustes et évolutives.",
+        description: "Je suis spécialisé en React, un framework moderne et puissant qui permet de créer des applications web performantes, avec des interfaces utilisateur intuitives et esthétiques. Mon objectif est de transformer vos idées en réalités numériques robustes et évolutives.",
     },
     {
         num: "02",
@@ -99,12 +99,12 @@ export const skillsList: SkillsType = {
     description: "Liste des technologies utilisés",
     skillsList: [
         {
-            icon: SiNextdotjs,
-            name: "Next",
-        },
-        {
             icon: FaReact,
             name: "React",
+        },
+        {
+            icon: SiNextdotjs,
+            name: "Next",
         },
         {
             icon: SiTypescript,
