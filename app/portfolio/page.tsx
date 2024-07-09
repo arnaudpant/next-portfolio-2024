@@ -56,7 +56,7 @@ const Portfolio = () => {
                                 ))}
                             </ul>
                             <div className="flex items-center gap-4">
-                                <Link href="/">
+                                <Link href={currentProject.live || '/'}>
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-textcolor/5 flex justify-center items-center ">
@@ -68,7 +68,7 @@ const Portfolio = () => {
                                         </Tooltip>
                                     </TooltipProvider>
                                 </Link>
-                                <Link href="/">
+                                <Link href={currentProject.github || '/'}>
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-textcolor/5 flex justify-center items-center ">
