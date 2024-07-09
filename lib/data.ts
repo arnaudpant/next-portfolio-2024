@@ -36,7 +36,7 @@ export const stats: StatsType[] = [
         text: "Technologies maitrisées",
     },
     {
-        num: 824,
+        num: 836,
         text: "Commits",
     },
 ];
