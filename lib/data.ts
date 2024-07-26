@@ -29,14 +29,14 @@ export const linksNavigation: NavLinksType[] = [
 export const stats: StatsType[] = [
     {
         num: 29,
-        text: "Projets complétés",
+        text: "Projets",
     },
     {
         num: 8,
         text: "Technologies maitrisées",
     },
     {
-        num: 836,
+        num: 854,
         text: "Commits",
     },
 ];
@@ -154,7 +154,7 @@ export const skillsList: SkillsType = {
 export const projects: ProjectType[] = [
     {
         num: '01',
-        category: 'Front-end',
+        category: 'Full Stack',
         title: "Application de gestion de cave à vin",
         description: "J'ai développé une application de gestion de cave à vin complète pour les amateurs de vin. Les utilisateurs peuvent organiser leurs bouteilles dans des racks virtuels, facilitant ainsi la gestion visuelle et pratique de leur cave. L'ajout et la suppression de bouteilles sont simplifiés grâce à une interface intuitive, permettant de mettre à jour leurs stocks rapidement et efficacement. La visualisation des stocks est également intégrée, offrant une vue d'ensemble claire et détaillée du contenu de la cave.",
         stacks: ['React', 'TypeScript', 'Firebase'],
@@ -164,7 +164,7 @@ export const projects: ProjectType[] = [
     },
     {
         num: '02',
-        category: 'Front-end | Back-end',
+        category: 'Full Stack',
         title: "Site de vente de produits entre particuliers",
         description: 'Cette application permet aux utilisateurs de créer des annonces, de parcourir les produits disponibles, et de finaliser des transactions en ligne de manière sécurisée.',
         stacks: ['React', 'TypeScript', 'Firebase'],
