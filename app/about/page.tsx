@@ -87,7 +87,7 @@ const About = () => {
                                 </p>
                                 <p className="px-8 md:px-0 leading-8">
                                     Aujourd&apos;hui je suis développeur web
-                                    Front-End, spécialisé dans Next.js, React &
+                                    Front-End, spécialisé en React &
                                     TypeScript.
                                 </p>
                                 <p className="px-8 md:px-0 leading-8">
@@ -104,8 +104,7 @@ const About = () => {
                                     un savoir être, contactez-moi.
                                 </p>
                                 <p className="px-8 md:px-0 leading-8">
-                                    Disponible en Lorraine et Luxembourg | CDI /
-                                    CDD
+                                    Disponible en Lorraine et Luxembourg.<br /> En régie.
                                 </p>
                             </div>
                         </TabsContent>
