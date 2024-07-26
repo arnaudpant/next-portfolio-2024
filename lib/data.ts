@@ -28,7 +28,7 @@ export const linksNavigation: NavLinksType[] = [
 
 export const stats: StatsType[] = [
     {
-        num: 29,
+        num: 27,
         text: "Projets terminés",
     },
     {
@@ -37,7 +37,7 @@ export const stats: StatsType[] = [
     },
     {
         num: 854,
-        text: "Commits",
+        text: "Commits (2024)",
     },
 ];
 
