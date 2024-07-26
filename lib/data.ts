@@ -29,11 +29,11 @@ export const linksNavigation: NavLinksType[] = [
 export const stats: StatsType[] = [
     {
         num: 29,
-        text: "Projets",
+        text: "Projets terminés",
     },
     {
-        num: 8,
-        text: "Technologies maitrisées",
+        num: 3,
+        text: "Projets en cours",
     },
     {
         num: 854,
