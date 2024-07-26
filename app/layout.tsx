@@ -3,7 +3,6 @@ import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
-import StairTransition from "@/components/StairTransition";
 
 const JetBrainsMono = JetBrains_Mono({
     subsets: ["latin"],
@@ -14,7 +13,7 @@ const JetBrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
     title: "Portfolio de Développeur Web à Nancy | Next.js, React & TypeScript | Disponible pour des postes en Lorraine, Nancy et au Luxembourg",
     description:
-        "Découvrez le portfolio de Arnaud P., développeur web spécialisé en Next.js, React et TypeScript, basé en Lorraine. Explorez mes projets et compétences en développement front-end.",
+        "Découvrez le portfolio de Arnaud P., développeur web spécialisé en React, basé en Lorraine et disponible au Luxembourg. Explorez mes projets et compétences en développement front-end.",
 };
 
 export default function RootLayout({
@@ -26,7 +25,7 @@ export default function RootLayout({
         <html lang="fr">
             <body className={JetBrainsMono.variable}>
                 <Header />
-                <StairTransition />
+                {/* <StairTransition /> */}
                 <PageTransition>{children}</PageTransition>
             </body>
         </html>

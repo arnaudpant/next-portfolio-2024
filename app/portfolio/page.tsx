@@ -25,7 +25,7 @@ const Portfolio = () => {
             initial={{ opacity: 0 }}
             animate={{
                 opacity: 1,
-                transition: { delay: 1.4, duration: 0.4, ease: "easeIn" },
+                transition: { delay: 0.5, duration: 0.5, ease: "easeIn" },
             }}
             className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
         >
@@ -56,7 +56,7 @@ const Portfolio = () => {
                                 ))}
                             </ul>
                             <div className="flex items-center gap-4">
-                                <Link href={currentProject.live || '/'}>
+                                <Link href={currentProject.live || "/"}>
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-textcolor/5 flex justify-center items-center ">
@@ -68,7 +68,7 @@ const Portfolio = () => {
                                         </Tooltip>
                                     </TooltipProvider>
                                 </Link>
-                                <Link href={currentProject.github || '/'}>
+                                <Link href={currentProject.github || "/"}>
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-textcolor/5 flex justify-center items-center ">
