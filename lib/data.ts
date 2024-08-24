@@ -165,6 +165,16 @@ export const projects: ProjectType[] = [
     {
         num: '02',
         category: 'Full Stack',
+        title: "Site E-Commerce",
+        description: "J'ai recréé le site e-commerce d'un client sous WordPress avec Next.js, Prisma, Neon.io, Stripe",
+        stacks: ['Next', 'Prisma', 'Neon'],
+        image: '/portfolio/site4.png',
+        live: 'https://e-commerce-huiles.vercel.app',
+        github: 'https://github.com/arnaudpant/e-commerce-huiles',
+    },
+    {
+        num: '03',
+        category: 'Full Stack',
         title: "Site de vente de produits entre particuliers",
         description: 'Cette application permet aux utilisateurs de créer des annonces, de parcourir les produits disponibles, et de finaliser des transactions en ligne de manière sécurisée.',
         stacks: ['React', 'TypeScript', 'Firebase'],
@@ -173,7 +183,7 @@ export const projects: ProjectType[] = [
         github: 'https://github.com/arnaudpant/vinted',
     },
     {
-        num: '03',
+        num: '04',
         category: 'Front-end | Design',
         title: "Site vitrine pour un client",
         description: "En collaboration avec la cliente, j'ai développé un site vitrine mettant en avant ses services et approches naturelles. Utilisant Figma pour le design initial, nous avons créé une interface utilisateur qui reflète l'identité visuelle de sa pratique. Le site inclut des sections détaillant les services proposés, les ateliers, etc.",
