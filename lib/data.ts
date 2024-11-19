@@ -36,8 +36,12 @@ export const stats: StatsType[] = [
         text: "Projets en cours",
     },
     {
-        num: 880,
+        num: 637,
         text: "Commits (2024)",
+    },
+    {
+        num: 43,
+        text: "PR (2024)",
     },
 ];
 
@@ -50,16 +54,11 @@ export const services: ServicesType[] = [
     },
     {
         num: "02",
-        title: "Création de SaaS",
-        description: "Avec Next.js, je développe des applications SaaS (Software as a Service) efficaces. Je suis capable de transformer vos besoins métier en solutions technologiques concrètes, avec une expérience utilisateur de haute qualité.",
-    },
-    {
-        num: "03",
         title: "Création de sites internet",
         description: "Je conçois et développe des sites vitrines et des landing pages qui mettent en valeur vos produits ou services, optimisées pour le référencement (SEO). Chaque projet est réalisé sur mesure, avec une attention particulière portée au design et à l'ergonomie, afin de maximiser l'impact visuel et l'engagement des visiteurs. Mon objectif est de vous aider à captiver votre audience et à convertir les visiteurs en clients.",
     },
     {
-        num: "04",
+        num: "03",
         title: "Création de sites E-commerce",
         description: "Je propose la création de sites E-commerce avec Next.js ou WordPress. Je développe des plateformes de vente en ligne qui offrent une gestion simplifiée des produits et un processus de commande sécurisé. Que vous choisissiez Next.js pour une solution sur mesure ou WordPress pour sa flexibilité et ses nombreuses extensions, je m'engage à fournir une boutique en ligne qui répond à vos besoins et à ceux de vos clients.",
     },
@@ -74,15 +73,15 @@ export const experience: ExperiencesType = {
     items: [
         {
             company: "N'JoyLife",
-            poste: "Développeur web",
+            poste: "Développeur web React",
             duration: "Septembre 2020 - Aujourd'hui",
-            description: "Création d'un site vitrine pour un professionnel."
+            description: "Création et gestion d'un site vitrine pour un professionnel."
         },
         {
             company: "HuilesVak",
             poste: "Développeur WordPress",
             duration: "Septembre 2023 - Aujourd'hui",
-            description: "Création d'un site E-commerce avec WordPress, WooCommerce, Stripe."
+            description: "Création d'un site E-commerce avec WordPress, WooCommerce."
         },
     ],
 };
@@ -164,13 +163,13 @@ export const projects: ProjectType[] = [
     },
     {
         num: '02',
-        category: 'Full Stack',
-        title: "Site E-Commerce",
-        description: "J'ai recréé le site e-commerce d'un client sous WordPress avec Next.js, Prisma, Neon.io, Stripe",
-        stacks: ['Next', 'Prisma', 'Neon'],
-        image: '/portfolio/site4.png',
-        live: 'https://e-commerce-huiles.vercel.app',
-        github: 'https://github.com/arnaudpant/e-commerce-huiles',
+        category: 'Front-end',
+        title: "Site de séjours linguistique",
+        description: 'Cette application permet aux utilisateurs de trouver des familles étrangères vivant en France pour effectuer un séjour linguistique',
+        stacks: ['React', 'TypeScript', 'Firebase'],
+        image: '/portfolio/site2.png',
+        live: 'https://lingui-club-370fe.web.app/',
+        github: 'https://github.com/Caro-L-dev/lingi-club',
     },
     {
         num: '03',
@@ -178,19 +177,9 @@ export const projects: ProjectType[] = [
         title: "Site de vente de produits entre particuliers",
         description: 'Cette application permet aux utilisateurs de créer des annonces, de parcourir les produits disponibles, et de finaliser des transactions en ligne de manière sécurisée.',
         stacks: ['React', 'TypeScript', 'Firebase'],
-        image: '/portfolio/site2.png',
+        image: '/portfolio/site3.png',
         live: 'https://bootcamp-vinted.netlify.app/',
         github: 'https://github.com/arnaudpant/vinted',
-    },
-    {
-        num: '04',
-        category: 'Front-end | Design',
-        title: "Site vitrine pour un client",
-        description: "En collaboration avec la cliente, j'ai développé un site vitrine mettant en avant ses services et approches naturelles. Utilisant Figma pour le design initial, nous avons créé une interface utilisateur qui reflète l'identité visuelle de sa pratique. Le site inclut des sections détaillant les services proposés, les ateliers, etc.",
-        stacks: ['React', 'TypeScript', 'Figma'],
-        image: '/portfolio/site3.png',
-        live: 'https://www.joelle-corda-naturopathe.fr/index.html',
-        github: 'https://github.com/arnaudpant/ts-njoylife',
     },
 ]
 
